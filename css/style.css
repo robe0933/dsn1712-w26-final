@@ -16,6 +16,7 @@ body {
     color: #222;
     line-height: 1.6;
 }
+
 /* Typography */
 
 h1 {
@@ -34,8 +35,6 @@ h3 {
 /* p { 
     margin-bottom: 1rem; 
 }  */
-
-
 
 
 /* container */ 
@@ -79,21 +78,52 @@ nav a {
     gap: 1rem;
 }
 
+#product img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+
+#product .wrapper > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "a a a"
+        "b c d";
+
+    gap: 3rem;
+
+    
+}
+
+#product img:nth-child(1) {
+    grid-area: a;
+}
+
+#product img:nth-child(2) {
+    grid-area: b;
+}
+
+#product img:nth-child(3) {
+    grid-area: c;
+}
+
+#product img:nth-child(4) {
+    grid-area: d;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+#product a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 5%;
+}
 
 
 
