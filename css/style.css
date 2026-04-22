@@ -1,5 +1,91 @@
 
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Mobile !!!!!!!!!!!*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #222;
+    line-height: 1.6;
+}
+/* Typography */
+
+h1 {
+    font-size: 2.027rem;
+}
+
+h2 {
+    font-size: 1.802rem;
+   /* margin-bottom: 1rem; */
+}
+
+h3 {
+    font-size: 1.266rem;
+}
+
+/* p { 
+    margin-bottom: 1rem; 
+}  */
+
+
+
+
+/* container */ 
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 1rem; */
+}
+
+
+
+
+/* Header */ 
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* product */ 
+
+#product .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
 
 
 
