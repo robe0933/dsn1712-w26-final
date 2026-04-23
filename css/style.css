@@ -42,7 +42,7 @@ h3 {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 1rem; */
+    padding: 1rem; 
 }
 
 
@@ -81,6 +81,7 @@ nav a {
 #product img {
     width: 100%;
     border-radius: 2%;
+    display: block;
 }
 
 
@@ -91,7 +92,7 @@ nav a {
         "a a a"
         "b c d";
 
-    gap: 3rem;
+    gap: 1rem;
 
     
 }
@@ -113,17 +114,84 @@ nav a {
 }
 
 
-
-
-
 #product a {
-    display: inline-block;
+    display: flex;
+    align-self: flex-start;
     background-color: #000;
     color: #fff;
     padding: 1em;
     text-decoration: none;
     border-radius: 5%;
 }
+
+#product .wrapper > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* limited text in product section */
+#product h1 + p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* dough */ 
+/* something wrong with the column as well need to add something add a wrapper is is it correct when the screen is smaller need space between the paragraphs and title and paragraph */
+
+#dough {
+    background-color: #f8fafc;
+    padding: 2rem;
+}
+
+
+
+/* saying */  /* need space between title and paragraph */ 
+
+#saying {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+#saying blockquote {
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* try */  /* this needs to have grey in the background and the text needs to be centred and space between the background grey and the photo under it */ 
+
+
+#try > .wrapper > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+#try img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+
+/* footer */  /* need space between background and sides */ 
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
 
 
 
