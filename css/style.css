@@ -191,7 +191,7 @@ nav a {
 
 
 
-/* try section */  /* this needs to have grey in the background and the text needs to be centred and space between the background grey and the photo under it..... come back for this make it your dirty little slut its your dirty bad girl. fuck that hoe good */ 
+/* try section */  
 
 #try {
     text-align: center;
@@ -205,13 +205,16 @@ nav a {
     gap: 1rem;
 }
 
-
 #try img {
     width: 100%;
-    border-radius: 2%;
-   
+    display: block; 
+    border-radius: 5px 5px 0 0 ;
 }
 
+.text {
+    background-color: #f8fafc;
+    border-radius: 0 0 5px 5px;
+}
 
 /* footer */  
 
@@ -285,7 +288,7 @@ footer {
     
 }
 
-
+/* Media Query 960px !!!!!!!!!!!!!!!!!!!!!!*/
 
 @media (min-width: 960px) {
 
